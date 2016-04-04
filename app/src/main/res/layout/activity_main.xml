@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <com.example.groupimage.ui.SpritesView
+        android:id="@+id/spritesView"
+        android:paddingLeft="2dp"
+        android:paddingTop="8dp"
+        android:paddingRight="2dp"
+        android:paddingBottom="8dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@android:color/darker_gray"/>
+
+</LinearLayout>
